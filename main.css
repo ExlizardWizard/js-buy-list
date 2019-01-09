@@ -7,9 +7,9 @@ body {
 	/*max-width: 745px;*/
 	max-height: 35px;
 	padding: 15px;
-	border-radius: 0px 0px 5px 5px ;
-	width: 70%;
-	display: inline-block;
+	border-radius: 5px 5px 0px 0px ;
+	/*width: 70%;
+	display: inline-block;*/
 }
 
 .nazva {
@@ -21,7 +21,7 @@ body {
 	padding-left: 15px;
 	box-sizing: border-box;
 	border-radius: 5px 0px 0px 5px ;
-	border: 1px solid rgba(220, 221, 222, 0.5);
+	border: 1px solid rgba(220, 221, 222, 0.5);   
 }
 
 .dod {
@@ -29,8 +29,7 @@ body {
 	background-color: #5B91F5;
 	border: none;
 	height: 35px;
-/*	width: 100px;
-*/}
+	}
 
 .rbox {
 	/*text-align: left;*/
@@ -40,10 +39,11 @@ body {
 	float: right;
 	display: inline-block;
 	padding: 10px;
+	border-radius: 5px;
 }
 
 .container {
-	width: 1000px;
+	width: 1150px;
 	margin-left: auto;
 	margin-right: auto;
 	display: flex; 
@@ -55,6 +55,96 @@ body {
 	size: 1px;
 }
 
-.ingr {
-	
+.list-item {
+	background: #CDCFCF;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.badge {
+	background: orange;
+	color: white;
+	border-radius: 50%;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: center;
+}
+
+.rbox-list-zal {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.rbox-list-kup {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-decoration:line-through	
+}
+
+.general-box {
+	width: 70%;
+	display: inline-block;
+}
+
+.input-box {
+	display: flex;
+	flex-direction: column;
+	background: white;
+	border-radius: 5px;
+}
+
+.input-box-item {
+	border-top: 1px solid black;
+	border-color: #BABBBF;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.kup-text {
+	text-decoration:line-through	
+}
+
+.cheese-input {
+    border: 2px solid #dadada;
+    padding-left: 10px;
+}
+
+.cheese-input:focus { 
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+    padding-left: 10px;
+}
+
+.deduct {
+	background: red;
+	color: white;
+	border-radius: 50%;
+	text-align: center;
+	width: 25px;
+	height: 25px;
+	border: none;
+}
+
+.add {
+	background: green;
+	color: white;
+	border-radius: 50%;
+	text-align: center;
+	width: 25px;
+	height: 25px;
+	border: none;
+}
+
+.number-of-items  {
+	max-width: 25px;
+	text-align: center;
+}
+
+.cancel {
+	background: red;
+	color: white;
+	border: none;
 }

@@ -11,21 +11,69 @@
 
 <div class="container">
 
+	<div class="general-box">
 	<div class="addbox">
 		<input type="text" name="" value="Назва товару" class="nazva"><button class="dod">Додати</button>
 	</div>
 
-	<div class="rbox">
-		<H4 class="zal">Залишилося</H4>
-			<hr class="divider"></hr>
-				<div class="ingr">
-					<p>Помідори</p>
-					<p>Печиво</p>
-					<p>Сир</p>
-				</div>
-			<hr class="divider"></hr>
-		<H4 class="kup">Куплено</H4>
+	<div class="input-box">
+		<div class="input-box-item">
+			<span class="kup-text">Помідори </span>
+			<input type="number" name="" value="1" class="number-of-items">
+			<button>Не куплено</button>
+		</div>
+		<div class="input-box-item">
+			<span class="zal-text">Печиво </span>
+			<div class="counter">
+				<button class="deduct">-</button>
+				<input type="number" name="" value="2" class="number-of-items">
+				<button class="add">+</button>
+			</div>
+			<div>	
+				<button>Куплено</button>
+				<button class="cancel">&#215</button>
+			</div>	
+		</div>
+		<div class="input-box-item">
+			<span><input type="text" name="" value="Сир" class="cheese-input"></span>
+			<div class="counter">
+				<button class="deduct">-</button>
+				<input type="number" name="" value="1" class="number-of-items">
+				<button class="add">+</button>
+			</div>
+			<div>
+				<button>Куплено</button>
+				<button class="cancel">&#215</button>
+			</div>
+		</div>
 	</div>
+	</div>
+
+	<div class="rbox">
+		<H4 class="rbox-subheader">Залишилося</H4>
+
+		<hr class="divider"></hr>
+
+		<div class="rbox-list-zal">
+			<span class="list-item">Печиво <span class="badge">1</span></span>
+			<span class="list-item">Сир <span class="badge">1</span></span>
+		</div>
+
+		<hr class="divider"></hr>
+
+		<H4 class="rbox-subheader">Куплено</H4>
+
+		<hr class="divider"></hr>
+
+		<div class="rbox-list-kup">
+			<span class="list-item">Помідори <span class="badge">1</span></span>
+		</div>
+
+		<hr class="divider"></hr>
+
+	</div>
+
+	
 
 </div>
 
