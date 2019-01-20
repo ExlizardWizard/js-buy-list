@@ -18,31 +18,36 @@
 
 	<div class="input-box">
 		<div class="input-box-item">
-			<span class="kup-text">Помідори </span>
-			<input type="number" name="" value="1" class="number-of-items">
-			<button>Не куплено</button>
+			<span class="kup-text wtext">Помідори </span>
+			<div class="counter">
+				<input type="number" name="" value="1" class="counter number-of-items" readonly="readonly">
+			</div>
+			<div>
+				<button class="cancel invisible">&#215</button>
+				<button class="kup-nekup">Не куплено</button>
+			</div>
 		</div>
 		<div class="input-box-item">
-			<span class="zal-text">Печиво </span>
+			<span class="zal-text wtext">Печиво </span>
 			<div class="counter">
 				<button class="deduct">-</button>
-				<input type="number" name="" value="2" class="number-of-items">
+				<input type="number" name="" value="2" class="number-of-items" readonly="readonly">
 				<button class="add">+</button>
 			</div>
 			<div>	
-				<button>Куплено</button>
+				<button class="kup-nekup">Куплено</button>
 				<button class="cancel">&#215</button>
 			</div>	
 		</div>
 		<div class="input-box-item">
-			<span><input type="text" name="" value="Сир" class="cheese-input"></span>
+			<span class="wtext"><input type="text" name="" value="Сир" class="cheese-input"></span>
 			<div class="counter">
 				<button class="deduct">-</button>
-				<input type="number" name="" value="1" class="number-of-items">
+				<input type="number" name="" value="1" class="number-of-items" readonly="readonly">
 				<button class="add">+</button>
 			</div>
 			<div>
-				<button>Куплено</button>
+				<button class="kup-nekup">Куплено</button> 
 				<button class="cancel">&#215</button>
 			</div>
 		</div>
@@ -73,7 +78,13 @@
 
 	</div>
 
-	
+</div>
+
+<div id="popUp">
+
+	<h1>Buy List</h1>
+	<p>Created by:</p>
+	<h2>Eduard Yevchenko</h2>
 
 </div>
 
