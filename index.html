@@ -5,6 +5,7 @@
     <title>My Page</title>
 
     <link rel="stylesheet" type="text/css" href="main.css" />
+   
 </head>
 
 <body>
@@ -13,7 +14,7 @@
 
 	<div class="general-box">
 		<div class="addbox">
-			<input type="text" name="" value="Назва товару" class="nazva"><button class="dod" data-tooltip="Ed's item">Додати</button>
+			<input type="text" name="" value="Назва товару" class="nazva"><button class="dod" data-tooltip="Додати нову позицію">Додати</button>
 		</div>
 
 		<div class="input-box">
@@ -23,32 +24,32 @@
 					<input type="number" name="" value="1" class="counter number-of-items" readonly="readonly">
 				</div>
 				<div>
-					<button class="cancel invisible" data-tooltip="Ed's item">&#215</button>
-					<button class="kup-nekup" data-tooltip="tooltiptext">Не куплено</button>
+					<button class="cancel invisible" data-tooltip="Видалити">&#215</button>
+					<button class="kup-nekup" data-tooltip="Потрібно купити">Не куплено</button>
 				</div>
 			</div>
 			<div class="input-box-item">
 				<span class="zal-text wtext">Печиво </span>
 				<div class="counter">
-					<button class="deduct" data-type="tip">-</button>
+					<button class="deduct" data-type="tip" data-tooltip="Мінус">-</button>
 					<input type="number" name="" value="2" class="number-of-items" readonly="readonly">
-					<button class="add" data-type="tip">+</button>
+					<button class="add" data-type="tip" data-tooltip="Плюс">+</button>
 				</div>
 				<div>	
-					<button class="kup-nekup" data-type="tip">Куплено</button>
-					<button class="cancel" data-type="tip">&#215</button>
+					<button class="kup-nekup" data-type="tip" data-tooltip="Вже купили">Куплено</button>
+					<button class="cancel" data-type="tip" data-tooltip="Видалити">&#215</button>
 				</div>	
 			</div>
 			<div class="input-box-item">
 				<span class="wtext"><input type="text" name="" value="Сир" class="cheese-input"></span>
 				<div class="counter">
-					<button class="deduct" data-type="tip" data-type="tip">-</button>
+					<button class="deduct" data-type="tip" data-type="tip" data-tooltip="Мінус">-</button>
 					<input type="number" name="" value="1" class="number-of-items" readonly="readonly">
-					<button class="add" data-type="tip">+</button>
+					<button class="add" data-type="tip" data-tooltip="Плюс">+</button>
 				</div>
 				<div>
-					<button class="kup-nekup" data-type="tip">Куплено</button> 
-					<button class="cancel" data-type="tip">&#215</button>
+					<button class="kup-nekup" data-type="tip" data-tooltip="Вже купили">Куплено</button> 
+					<button class="cancel" data-type="tip" data-tooltip="Видалити">&#215</button>
 				</div>
 			</div>
 		</div>
@@ -87,6 +88,9 @@
 	<h2>Eduard Yevchenko</h2>
 
 </div>
+
+ 	<script	type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js">	</script>
+	<script	type="text/javascript" src="main.js">	</script>
 
 </body>
 

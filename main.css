@@ -138,6 +138,20 @@ body {
 	border-style: solid;
 }
 
+.deduct2 {
+	background: #d63333;
+	opacity: 0.3;
+	color: white;
+	border-radius: 50%;
+	text-align: center;
+	width: 25px;
+	height: 25px;
+	border: none;
+	border-width: 0px 0px 2px 0px;
+	border-color: #891c1c;
+	border-style: solid;
+}
+
 .add {
 	background: #29a52f;
 	color: white;
